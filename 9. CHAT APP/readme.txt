@@ -1,0 +1,3 @@
+-> A CHAT WEB application
+-> A Node JS driven app
+-> Using Socket IO to make separate rooms for chat

@@ -1,0 +1,3 @@
+-> A Javascript based single page recipe and ingredient calculation web app
+-> User can search for dish they want to make, return results using APIs to fetch recipe details with servings and portions
+-> Javascript driven dynamic web application
