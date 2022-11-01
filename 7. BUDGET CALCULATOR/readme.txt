@@ -1,0 +1,2 @@
+-> A Javascript based single page budget calculator web app
+-> User can give input of their income and expenses, to get a balance sheet record with expense distribution and details

@@ -1,0 +1,2 @@
+-> A Javascript driven single page web TO-DO List
+-> It runs on the local host server using Node Js

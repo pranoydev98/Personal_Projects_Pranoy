@@ -1,0 +1,2 @@
+-> A Javascript based Blogging web app
+-> It utilizes the concepts of EJS template to run on a component format

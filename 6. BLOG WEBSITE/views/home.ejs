@@ -1,0 +1,15 @@
+<%- include("partials/header") -%>
+
+<h1>HOME</h1>
+<p> <%= body %> </p>
+
+<!-- for(let i = 0; i <Post.length ;i++){console.log(Post[i].Title);} -->
+
+<% Post.forEach(function(element){ let PostTitle = element.Title %>
+
+<h1> <%=PostTitle%> </h1>
+<p> <%= element.Body.substring(0,100)+"...."%><a href="/posts/<%=PostTitle%>">Read More</a></p>
+
+<% }); %>
+
+<%- include("partials/footer") -%>

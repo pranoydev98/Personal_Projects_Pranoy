@@ -1,0 +1,2 @@
+-> A Javascript driven single page web game
+-> It is memory based game, each round specifies a colour, we are required to specify the colour pattern by clicking on the tiles ; in it's correct order since the start of the game.

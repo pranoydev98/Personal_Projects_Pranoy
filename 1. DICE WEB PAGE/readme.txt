@@ -1,0 +1,2 @@
+-> A single web page game driven by javascript
+-> 2 dices shows random shuffling and higher number wins

@@ -1,0 +1,17 @@
+<%- include("partials/header") -%>
+<%var flag = 0%>
+
+<% Post.forEach(function(element){if (element.Title === requestedTitle){ %>
+<h1> <%=requestedTitle%> </h1>
+<p> <%= element.Body%> </p>
+<%flag = 1}}); %>
+
+<%if (Post.length === 0){%>
+<h1>No posts submitted yet</h1>
+<% } %>
+
+<%if (flag=== 0 && Post.length !== 0){%>
+<h1>No such posts</h1>
+<% } %>
+
+<%- include("partials/footer") -%>
